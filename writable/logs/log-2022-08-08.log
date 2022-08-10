@@ -1,0 +1,172 @@
+ERROR - 2022-08-08 12:22:43 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:23:28 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:24:48 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:25:27 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:25:36 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:26:21 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:28:40 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:29:05 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:29:42 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:34:22 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:43:37 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 12:43:40 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 13:02:05 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 13:03:07 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 13:07:03 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 13:22:08 --> Unknown column 'agriculteur.deleted_at' in 'where clause'
+CRITICAL - 2022-08-08 13:22:08 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 13:26:45 --> Unknown column 'agriculteur.deleted_at' in 'where clause'
+CRITICAL - 2022-08-08 13:26:45 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 13:27:11 --> Unknown column 'agriculteur.deleted_at' in 'where clause'
+CRITICAL - 2022-08-08 13:27:11 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 13:27:13 --> Unknown column 'agriculteur.deleted_at' in 'where clause'
+CRITICAL - 2022-08-08 13:27:13 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 13:29:45 --> Unknown column 'agriculteur.deleted_at' in 'where clause'
+CRITICAL - 2022-08-08 13:29:45 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 13:31:54 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\AgriculteurModel.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\AgriculteurModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AgriculteurModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AgriculteurModel')
+ 4 APPPATH\Controllers\AgriculteurController.php(11): spl_autoload_call('App\\Models\\AgriculteurModel')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 13:32:16 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 13:39:03 --> Unknown column 'agriculteur.deleted_at' in 'where clause'
+CRITICAL - 2022-08-08 13:39:03 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 13:39:21 --> Unknown column 'agriculteur.deleted_at' in 'where clause'
+CRITICAL - 2022-08-08 13:39:21 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 13:39:42 --> Unknown column 'agriculteur.deleted_at' in 'where clause'
+CRITICAL - 2022-08-08 13:39:42 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 13:40:03 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 13:44:35 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-08-08 13:48:31 --> Call to a member function insert() on null
+in APPPATH\Controllers\AgriculteurController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 15:20:30 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 15:20:52 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 15:25:31 --> Table 'membres.membres' doesn't exist
+CRITICAL - 2022-08-08 15:25:31 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 15:25:56 --> Table 'membres.membres' doesn't exist
+CRITICAL - 2022-08-08 15:25:56 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 15:26:00 --> Table 'membres.membres' doesn't exist
+CRITICAL - 2022-08-08 15:26:00 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\AgriculteurController.php(12): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 15:26:38 --> Cannot use object of type stdClass as array
+in APPPATH\Views\agriculteur\index.php on line 75.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('agriculteur/index.php', [], true)
+ 4 APPPATH\Controllers\AgriculteurController.php(13): view('agriculteur/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 15:26:57 --> Cannot use object of type stdClass as array
+in APPPATH\Views\agriculteur\index.php on line 75.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('agriculteur/index.php', [], true)
+ 4 APPPATH\Controllers\AgriculteurController.php(13): view('agriculteur/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 15:26:59 --> Cannot use object of type stdClass as array
+in APPPATH\Views\agriculteur\index.php on line 75.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('agriculteur/index.php', [], true)
+ 4 APPPATH\Controllers\AgriculteurController.php(13): view('agriculteur/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AgriculteurController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgriculteurController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-08 15:27:49 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 15:28:56 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 15:29:53 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 15:42:22 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-08-08 15:43:07 --> Column 'cvl' cannot be null
+ERROR - 2022-08-08 15:44:31 --> Column 'cvl' cannot be null
+ERROR - 2022-08-08 15:56:00 --> Column 'cvl' cannot be null
